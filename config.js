@@ -16,7 +16,7 @@ module.exports = {
     READ_CHAT : process.env.READ_CHAT || "false", //values are true and false only if true read all chats
     BOT_INFO : process.env.BOT_INFO || "INRL-BOT-MD,INRL,https://i.imgur.com/DyLAuEh.jpg", // about the bot as img number for menu such plugins
     BGMBOT : process.env.BGMBOT || 'false', //to set bot as bgm bot
-    WORKTYPE: process.env.WORKTYPE || 'privet', //bot working mode
+    WORKTYPE: process.env.WORKTYPE || 'public', //bot working mode
     PM_BLOCK : process.env.PM_BLOCK || "false", // to block all pm msg expt creaters as sudo
     PERFIX : process.env.PERFIX || ".", // prfix of bot 
     WELCOME_SET : process.env.WELCOME_SET || "true", //now thi scmd is not creted creating
