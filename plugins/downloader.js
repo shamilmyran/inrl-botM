@@ -73,7 +73,7 @@ try{
 
 inrl(
 	   {
-		pattern: ['ytmp4'],
+		pattern: ['play'],
 		desc: 'To get yt video',
                 sucReact: "💯",
                 category: ["system", "all", "downloade"],
@@ -85,7 +85,7 @@ await getYtV(message, client);
 );
 inrl(
 	   {
-		pattern: ['ytmp3'],
+		pattern: ['video'],
 		desc: 'get yt video as mp3 output',
                 sucReact: "🤙",
                 category: ["system", "all", "downloade"],
@@ -131,7 +131,7 @@ message.send("error"+e);
 );
 inrl(
 	   {
-		pattern: ['insta'],
+		pattern: ['instagram'],
 		desc: 'do get instgram videos',
                 sucReact: "🙃",
                 category: ["system", "all"],
