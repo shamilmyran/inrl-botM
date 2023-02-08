@@ -102,7 +102,7 @@ return await send_alive(message, client)
 });
 inrl(
   {
-    pattern: ["script"],
+    pattern: ["heheeee"],
     desc: "to get the bot script",
     sucReact: "🥵",
     category: ["system", "all"],
@@ -146,18 +146,18 @@ const bots = require("../lib/perfix");
 const Lang = bots.getString("_whats");
 let cTitle = { "search": "Search",  "all": 'All', "downloade": "Downloade", "chat": "Chat","inrl":"Inrl","ibot":"Ibot", "system": "System", 'fun': "Fun", '18+': "18+","ff:":"Ff", 'owner': "Owner", 'create': "Create", 'group': "Group", "logo": "Logo","photo": "Photo","sticker": "Sticker","anime": "Anime" }
 
-inrl({ pattern: ["menu"], desc: Lang.DESCC, sucReact: "📰", category: ["all", "system"], type: 'whatsapp'}, async (message, client) => {
+inrl({ pattern: ["menu"], desc: Lang.DESCC, sucReact: "💦", category: ["all", "system"], type: 'whatsapp'}, async (message, client) => {
  return await send_menu(message, client);
 });
 bots.categories.map(category => {
   if (category == 'all') return;
-inrl({ pattern: [`${category}-menu`], sucReact: "📰", category: ["all", "system"], type :'get'}, async (message, client) => {
+inrl({ pattern: [`${category}-menu`], sucReact: "🌝", category: ["all", "system"], type :'get'}, async (message, client) => {
   try {
     let prefix = new String; 
     if (!message.client.prefix || !message.client.prefix.length == 1) prefix = '.';
-    let CMD_HELP =  ` ╭═══〘 ${Config.BOT_INFO.split(",")[0]} 〙═══⊷❍
+    let CMD_HELP =  ` ╭═══〘 ${Config.BOT_INFO.split(",")[0]} 〙═══⊷☯︎
  ┃
- ┃  ╭════〘 about 〙════⊷❍
+ ┃  ╭════〘 about 〙════⊷☯︎
  ┃  │
  ┃  │  Owner : ${Config.BOT_INFO.split(",")[1]}
  ┃  │  User : ${message.client.pushName}
@@ -175,7 +175,7 @@ inrl({ pattern: [`${category}-menu`], sucReact: "📰", category: ["all", "syste
       if (command.category.includes(category)) { command.pattern.map((cmd) => CMD_HELP +=  " ┃  │      "+cmd+"\n")}
     }); 
    CMD_HELP += ` ┃  ╰─═════════════⊷❍
- ╰══════════════════⊷❍`;
+ ╰══════════════════⊷☯︎`;
     await client.sendMessage( message.from,{ image: { url: Config.BOT_INFO.split(",")[2]  }, caption: CMD_HELP, }, { quoted: message });
     global.catchError = false;
   } catch (error) { global.catchError = true; return await client.sendErrorMessage( message.from, error, message.key, message);}
