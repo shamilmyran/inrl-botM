@@ -14,7 +14,7 @@ module.exports = {
     ALIVETXT: process.env.ALIVETXT || 'MYR', //nothing😛
     ALIVE_DATA : process.env.ALIVE_DATA || "https://i.imgur.com/DyLAuEh.jpg,aliveText,alivebButtenText1,aliveTextButten2",// coustamized alive bottun😛
     READ_CHAT : process.env.READ_CHAT || "false", //values are true and false only if true read all chats
-    BOT_INFO : process.env.BOT_INFO || "𝐃𝐎𝐌𝐈𝐍𝐈𝐂,💗,https://i.imgur.com/Gi29skA.jpeg", // about the bot as img number for menu such plugins
+    BOT_INFO : process.env.BOT_INFO || "HEY,💗,https://i.imgur.com/Gi29skA.jpeg", // about the bot as img number for menu such plugins
     BGMBOT : process.env.BGMBOT || 'false', //to set bot as bgm bot
     WORKTYPE: process.env.WORKTYPE || 'public', //bot working mode
     PM_BLOCK : process.env.PM_BLOCK || "false", // to block all pm msg expt creaters as sudo
@@ -43,10 +43,10 @@ module.exports = {
     BOT_PRESENCE : process.env.BOT_PRESENCE || "recording",//bot presence
     IS_PRESENCE : process.env.IS_PRESENCE || "false",//nothing 😛
     CHATBOT : process.env.CHATBOT || 'false',//to chat bot on bith grp and pm
-    FOOTER : process.env.FOOTER || "ɪɴʀʟ-ᴍᴅ",//footers of bottun msg
+    FOOTER : process.env.FOOTER || "𝐃𝐎𝐌𝐈𝐍𝐈𝐂",//footers of bottun msg
     AUDIO_DATA : process.env.AUDIO_DATA || "inrl, inrl,https://i.imgur.com/DyLAuEh.jpg",//audio metadata
     STICKER_DATA: process.env.STICKER_DATA || "inrl, inrl,https://i.imgur.com/DyLAuEh.jpg",//sticker metedata
-    INSTAGRAM : process.env.INSTAGRAM || "https://instagram.com/_user_not_define",//your ig url
+    INSTAGRAM : process.env.INSTAGRAM || "https://tinyurl.com/3ex3e48e",//your ig url
     PACKNAME : process.env.PACKNAME || "ɪɴʀʟ-ʙᴏᴛ",// packname 
     GIT : process.env.GIT || "https://tinyurl.com/3ex3e48e",//github url
     WEB : process.env.WEB || "https://tinyurl.com/ycks3s8p",//your website url
